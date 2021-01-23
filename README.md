@@ -32,9 +32,9 @@ npm install
 ### Empresas
 | KEY       | TYPE       | REFERENCE | REQUIRE | VALIDATION |
 |-----------|------------|-----------|---------|------------|
-| name      | string     |           | YES     |            |
+| nombre    | string     |           | YES     |            |
 | CIF       | string     |           | NO      |            |
-| direction | string     |           | NO      |            |
+| direccion | string     |           | NO      |            |
 | email     | string     |           | YES     |            |
 | tlf       | number     |           | YES     |            |
 | contact   | string     |           | NO      |            |
@@ -45,9 +45,9 @@ npm install
 |-----------|----------|-----------|---------|------------|
 | empresa   | ObjectId | empresas  | YES     |            |
 | nombre    | string   |           | NO      |            |
-| direction | string   |           | NO      |            |
+| direccion | string   |           | NO      |            |
 | tlf       | number   |           | YES     |            |
-| contact   | string   |           | NO      |            |
+| contacto  | string   |           | NO      |            |
 
 ## Rutas API
 
