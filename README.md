@@ -60,6 +60,7 @@ npm install
 ### Usuario ENDPOINTS
 | METHOD | URL                         | AUTH | FUNCTION                                   |
 |--------|-----------------------------|------|--------------------------------------------|
+| GET    | '/'                         | NO   | Ver página web                             |
 | GET    | '/empresas'                 | YES  | Ver todas las empresas                     |
 | GET    | '/empresas/id'              | YES  | Ver una empresa                            |
 | GET    | '/empresas/id/sucursales    | YES  | Ver todas las sucursales de una empresa    |
