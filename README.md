@@ -26,7 +26,7 @@ JavaScript, Node, Html5 y css3
 
 ## Autor ✒️
 
-* *Luis Sánchez* - Programador (programacion, diseño y analisis) - [](https://github.com/)
+* *Luis Sánchez* - Programador (programacion, diseño y analisis) - [Luichi86](https://github.com/Luichi86)
 
 ## Licencia 📄
 
