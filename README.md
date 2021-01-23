@@ -17,6 +17,19 @@ Necesitas un navegador tipo google Chrome, Mozilla Firefox
 
 JavaScript, Node, Html5, css3, Mongoose, Express, Axios y Bootstrap.
 
+### Configuración del proyecto
+
+npm install
+
+## Esquemas DB
+
+### Usuario
+
+| KEY | TYPE | REFERENCE | REQUIRED | VALIDATION | 
+| ----------- | ----------- |
+| email | string |  |  YES|  RegExp, Unique| 
+| password | string |  |  YES| | 
+
 ## Licencia 📄
 
 Este proyecto está bajo la Licencia (MIT License) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
