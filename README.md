@@ -27,7 +27,50 @@ npm install
 | KEY      | TYPE   | REFERENCE | REQUIRED | VALIDATION     |
 |----------|--------|-----------|----------|----------------|
 | email    | string |           | YES      | RegExp, Unique |
-| password | string |           | Yes      |                |
+| password | string |           | YES      |                |
+
+### Empresas
+| KEY       | TYPE       | REFERENCE | REQUIRE | VALIDATION |
+|-----------|------------|-----------|---------|------------|
+| name      | string     |           | YES     |            |
+| CIF       | string     |           | NO      |            |
+| direction | string     |           | NO      |            |
+| email     | string     |           | YES     |            |
+| tlf       | number     |           | YES     |            |
+| contact   | string     |           | NO      |            |
+| sucursales| [ObjectId] | sucursales| NO      |            |
+
+### Sucursales
+| KEY       | TYPE     | REFERENCE | REQUIRE | VALIDATION |
+|-----------|----------|-----------|---------|------------|
+| empresa   | ObjectId | empresas  | YES     |            |
+| nombre    | string   |           | NO      |            |
+| direction | string   |           | NO      |            |
+| tlf       | number   |           | YES     |            |
+| contact   | string   |           | NO      |            |
+
+## Rutas API
+
+### Autentificación ENDPOINTS
+| METHOD | URL            | AUTH | FUNCTION                |
+|--------|----------------|------|-------------------------|
+| POST   | '/auth/signup' | NO   | Crear usuario           |
+| POST   | '/auth/login'  | NO   | Autentificar un usuario |
+
+### Usuario ENDPOINTS
+| METHOD | URL                         | AUTH | FUNCTION                                   |
+|--------|-----------------------------|------|--------------------------------------------|
+| GET    | '/empresas'                 | YES  | Ver todas las empresas                     |
+| GET    | '/empresas/id'              | YES  | Ver una empresa                            |
+| GET    | '/empresas/id/sucursales    | YES  | Ver todas las sucursales de una empresa    |
+| GET    | '/empresas/id/sucursales/id | YES  | Ver una sucursal de una empresa            |
+| POST   | '/empresas/'                | YES  | Crear una empresa                          |
+| POST   | '/empresas/id'              | YES  | Crear una sucursal                         |
+| PUT    | '/empresas/id'              | YES  | Editar una empresa                         |
+| PUT    | '/empresas/id/sucursales/id | YES  | Editar una sucursal                        |
+| DELETE | '/empresas/id               | YES  | Borrar una empresa                         |
+| DELETE | '/empresas/id/sucursales    | YES  | Borrar todas las sucursales de una empresa |
+| DELETE | '/empresas/id/sucursales/id | YES  | Borrar una sucursal                        |
 
 ## Licencia 📄
 
