@@ -1,5 +1,4 @@
 # Air-Lux
-# TallerBj
 
 _  -
 
@@ -23,11 +22,11 @@ JavaScript, Node, Html5 y css3
 * [Heroku] -
 * [Node] -
 * [Express]
-* [Ubuntu] - Sistema operativo
+* [MacOs] - Sistema operativo
 
 ## Autor ✒️
 
-* *Luis Sánchez* - Programador (programacion, diseño y analisis) - [](https://github.com/anate82)
+* *Luis Sánchez* - Programador (programacion, diseño y analisis) - [](https://github.com/)
 
 ## Licencia 📄
 
