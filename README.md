@@ -24,11 +24,10 @@ npm install
 ## Esquemas DB
 
 ### Usuario
-
-| KEY | TYPE | REFERENCE | REQUIRED | VALIDATION | 
-| ----------- | ----------- |
-| email | string |  |  YES|  RegExp, Unique| 
-| password | string |  |  YES| | 
+| KEY      | TYPE   | REFERENCE | REQUIRED | VALIDATION     |
+|----------|--------|-----------|----------|----------------|
+| email    | string |           | YES      | RegExp, Unique |
+| password | string |           | Yes      |                |
 
 ## Licencia 📄
 
