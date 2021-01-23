@@ -15,18 +15,7 @@ Necesitas un navegador tipo google Chrome, Mozilla Firefox
 
 ## Construido con 🛠️
 
-JavaScript, Node, Html5 y css3
-
-* [visual Code]- El entorno para programar usado
-* [MongoAtlas] - Base de datos
-* [Heroku] -
-* [Node] -
-* [Express]
-* [MacOs] - Sistema operativo
-
-## Autor ✒️
-
-* *Luis Sánchez* - Programador (programacion, diseño y analisis) - [Luichi86](https://github.com/Luichi86)
+JavaScript, Node, Html5, css3, Mongoose, Express, Axios y Bootstrap.
 
 ## Licencia 📄
 
